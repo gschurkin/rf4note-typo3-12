@@ -1,0 +1,70 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:variable name="fetchActionLink">{f:uri.action(action: 'check', pageType: 1001) -> f:format.raw()}</f:variable>
+<f:form class="point" enctype="multipart/form-data" data="{fetch: '{fetchActionLink}'}" name="point" action="new" controller="Point" enctype="multipart/form-data">
+    <div class="row gy-3">
+        <div class="col-12">
+            <div class="name-col">
+                <label for="name">{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:label_name')}</label>
+                <f:form.textfield class="name" property="name" required="1" placeholder="{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:prependOptionLabel_name')}" />
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="reservoir-col">
+                <label for="reservoir">{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:label_reservoir')}</label>
+                <f:form.select class="reservoir" property="reservoir" options="{reservoirs}" optionValueField="uid" optionLabelField="name" required="1" prependOptionLabel="{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:prependOptionLabel_reservoir')}"/>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="pos-col hidden">
+                <label for="posX">{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:label_posX')}</label>
+                <f:form.textfield class="posX mb-4" data="{random: ''}" required="1" placeholder="pos" name="posX" property="posX" value="" maxlength="3"/>
+                <f:form.textfield class="posY" data="{random: ''}" required="1" placeholder="pos" name="posY" property="posY" value="" maxlength="3"/>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="fishes-col hidden">
+                <label for="fishes">{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:label_fishes')}</label>
+                <f:form.select class="fishes" required="1" multiple="1" property="fishes" />
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="fishingtypes-col hidden">
+                <label for="fishingtypes">{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:label_fishingtypes')}</label>
+                <f:form.select class="fishingtypes mb-4" property="fishingtypes" options="{fishingtypes}" optionValueField="uid" optionLabelField="name" required="1" prependOptionLabel="{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:prependOptionLabel_fishingtypes')}" />
+                <f:form.upload class="image w-100" property="image" name="image" />
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="lures-col hidden">
+                <label for="lures">{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:label_lures')}</label>
+                <f:form.select class="lures" required="1" multiple="1" property="lures" />
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="description-col hidden">
+                <label for="description">{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:label_description')}</label>
+                <f:form.textarea class="description w-100" property="description" name="description" value="" placeholder="{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:prependOptionLabel_description')}" rows="10" cols="20" />
+            </div>
+        </div>
+        <div class="col-12 text-right">
+            <f:form.submit class="submit" name="submit" value="{f:translate(key: 'LLL:EXT:gs_rf4note/Resources/Private/Language/locallang_point.xlf:submit')}">
+            </f:form.submit>
+        </div>
+    </div>
+    
+</f:form>
+<script>
+    function getRndNumber() {
+        return Math.floor(Math.random() * 300);
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+    if (elem = document.querySelectorAll('[data-random]')) {
+            elem.forEach(element => {
+                element.placeholder = getRndNumber()
+            });
+        }
+    });
+</script>
+
+</html>

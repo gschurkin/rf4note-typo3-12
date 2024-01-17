@@ -1,0 +1,31 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:debug inline="0" title="List">{_all}</f:debug>
+
+
+<div class="row g-3">
+    <f:for each='{points}' as='point' iteration='i'>
+        <div class="col-12 col-md-4">
+            <f:link.action action="show">
+                <div class="point-box p-2">
+                    <p>{point.name}</p>
+                    <div class="text-end">
+                        <p class="small m-0">{point.reservoir.name}</p>
+                        <p class="small m-0">
+                            <f:for each='{point.fishes}' as='fish' iteration='i'>
+                                {fish.name}
+                            </f:for>
+                        </p>
+                        <p class="small m-0">
+                            <f:for each='{point.lures}' as='lure' iteration='i'>
+                                {lure.name}
+                            </f:for>
+                        </p>
+                    </div>
+                </div>
+            </f:link.action>
+        </div>
+    </f:for>
+</div>
+
+</html>
