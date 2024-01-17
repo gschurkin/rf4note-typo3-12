@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2023-07-28T15:23:48Z"
+          product-name="gs_rf4note">
+        <header/>
+        <body>
+            <!-- Forms -->
+            <trans-unit id="submit">
+                <source>Save Fishspot</source>
+            </trans-unit>
+            <trans-unit id="select">
+                <source>Select fishspot objects</source>
+            </trans-unit>
+
+            <trans-unit id="label_name">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="label_reservoir">
+                <source>Location</source>
+            </trans-unit>
+            <trans-unit id="label_posX">
+                <source>Position</source>
+            </trans-unit>
+            <trans-unit id="label_fishes">
+                <source>Fishes</source>
+            </trans-unit>
+            <trans-unit id="label_fishingtypes">
+                <source>Fishingtypes</source>
+            </trans-unit>
+            <trans-unit id="label_lures">
+                <source>Lures</source>
+            </trans-unit>
+            <trans-unit id="label_description">
+                <source>Description</source>
+            </trans-unit>
+
+            <trans-unit id="prependOptionLabel_reservoir">
+                <source>Select location</source>
+            </trans-unit>
+            <trans-unit id="prependOptionLabel_fish">
+                <source>Select fish</source>
+            </trans-unit>
+            <trans-unit id="prependOptionLabel_fishingtypes">
+                <source>Select fishing type</source>
+            </trans-unit>
+            <trans-unit id="prependOptionLabel_lure">
+                <source>Select lure</source>
+            </trans-unit>
+            <trans-unit id="prependOptionLabel_description">
+                <source>Write some words about this fishspot</source>
+            </trans-unit>
+            <trans-unit id="prependOptionLabel_name">
+                <source>Name your fishspot</source>
+            </trans-unit>
+
+            <!-- Backend -->
+            <trans-unit id="description">
+                <source>If none of fishspots is selected, all of them are displayed</source>
+            </trans-unit>
+            <trans-unit id="points">
+                <source>Points</source>
+            </trans-unit>
+            
+            <trans-unit id="flexforms_additional.detailPid" xml:space="preserve">
+				<source>PageId for single news display</source>
+			</trans-unit>
+            <trans-unit id="flexforms_additional.backPid" xml:space="preserve">
+				<source>PageId to return to</source>
+			</trans-unit>
+            <trans-unit id="flexforms_additional.listPid" xml:space="preserve">
+				<source>PageId for list display</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

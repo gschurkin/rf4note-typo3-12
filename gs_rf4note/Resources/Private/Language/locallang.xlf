@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:gs_rf4note/Resources/Private/Language/locallang.xlf" date="2023-04-15T20:04:54Z" product-name="gs_rf4note">
+		<header/>
+		<body>
+			<trans-unit id="tx_gsrf4note_domain_model_reservoir" resname="tx_gsrf4note_domain_model_reservoir">
+				<source>Reservoir</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_reservoir.name" resname="tx_gsrf4note_domain_model_reservoir.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_reservoir.description" resname="tx_gsrf4note_domain_model_reservoir.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_reservoir.max_point_x" resname="tx_gsrf4note_domain_model_reservoir.max_point_x">
+				<source>Max Point X</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_reservoir.max_point_y" resname="tx_gsrf4note_domain_model_reservoir.max_point_y">
+				<source>Max Point Y</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_reservoir.image" resname="tx_gsrf4note_domain_model_reservoir.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_reservoir.fishes" resname="tx_gsrf4note_domain_model_reservoir.fishes">
+				<source>Fishes</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fish" resname="tx_gsrf4note_domain_model_fish">
+				<source>Fish</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fish.name" resname="tx_gsrf4note_domain_model_fish.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fish.description" resname="tx_gsrf4note_domain_model_fish.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fish.image" resname="tx_gsrf4note_domain_model_fish.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fish.max_weight" resname="tx_gsrf4note_domain_model_fish.max_weight">
+				<source>Max Weight</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fish.reservoires" resname="tx_gsrf4note_domain_model_fish.reservoires">
+				<source>Reservoires</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fishingtype" resname="tx_gsrf4note_domain_model_fishingtype">
+				<source>Fishing Type</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fishingtype.name" resname="tx_gsrf4note_domain_model_fishingtype.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fishingtype.description" resname="tx_gsrf4note_domain_model_fishingtype.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_fishingtype.lures" resname="tx_gsrf4note_domain_model_fishingtype.lures">
+				<source>Lures</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_lure" resname="tx_gsrf4note_domain_model_lure">
+				<source>Lure</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_lure.name" resname="tx_gsrf4note_domain_model_lure.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_lure.description" resname="tx_gsrf4note_domain_model_lure.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_lure.weight" resname="tx_gsrf4note_domain_model_lure.weight">
+				<source>Weight</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_lure.image" resname="tx_gsrf4note_domain_model_lure.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_lure.types" resname="tx_gsrf4note_domain_model_lure.types">
+				<source>Types</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point" resname="tx_gsrf4note_domain_model_point">
+				<source>Point</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.name" resname="tx_gsrf4note_domain_model_point.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.description" resname="tx_gsrf4note_domain_model_point.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.point_x" resname="tx_gsrf4note_domain_model_point.point_x">
+				<source>Point X</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.poin_y" resname="tx_gsrf4note_domain_model_point.poin_y">
+				<source>Poin Y</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.image" resname="tx_gsrf4note_domain_model_point.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.author" resname="tx_gsrf4note_domain_model_point.author">
+				<source>Author</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.user" resname="tx_gsrf4note_domain_model_point.user">
+				<source>User</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.reservoir" resname="tx_gsrf4note_domain_model_point.reservoir">
+				<source>Reservoir</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.fishes" resname="tx_gsrf4note_domain_model_point.fishes">
+				<source>Fishes</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.type" resname="tx_gsrf4note_domain_model_point.type">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tx_gsrf4note_domain_model_point.lures" resname="tx_gsrf4note_domain_model_point.lures">
+				<source>Lures</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

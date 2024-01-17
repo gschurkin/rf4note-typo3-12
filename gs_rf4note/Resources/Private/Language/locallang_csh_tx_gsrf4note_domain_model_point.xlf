@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:gs_rf4note/Resources/Private/Language/locallang_csh_tx_gsrf4note_domain_model_point.xlf" date="2023-04-15T20:04:54Z" product-name="gs_rf4note">
+		<header/>
+		<body>
+			<trans-unit id="name.description" resname="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="description.description" resname="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="point_x.description" resname="point_x.description">
+				<source>pointX</source>
+			</trans-unit>
+			<trans-unit id="poin_y.description" resname="poin_y.description">
+				<source>poinY</source>
+			</trans-unit>
+			<trans-unit id="image.description" resname="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="author.description" resname="author.description">
+				<source>author</source>
+			</trans-unit>
+			<trans-unit id="user.description" resname="user.description">
+				<source>user</source>
+			</trans-unit>
+			<trans-unit id="reservoir.description" resname="reservoir.description">
+				<source>reservoir</source>
+			</trans-unit>
+			<trans-unit id="fishes.description" resname="fishes.description">
+				<source>fishes</source>
+			</trans-unit>
+			<trans-unit id="type.description" resname="type.description">
+				<source>type</source>
+			</trans-unit>
+			<trans-unit id="lures.description" resname="lures.description">
+				<source>lures</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
